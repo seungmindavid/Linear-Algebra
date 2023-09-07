@@ -1,0 +1,33 @@
+About Norms
+* Notation for norm of vector x: ||x||
+
+https://builtin.com/data-science/vector-norms
+
+Many applications like information retrieval, personalization, document categorization, image processing, and so on, rely on the computation of similarity or dissimilarity between items. Two items are considered similar if the distance between them is small, and vice versa.
+
+So, how de we calculate this distance?  -> Norm
+A Norm is a way to measure the size of a vector, a matrix, or a tensor. In other words, norms are a class of functions that enable us quantify the magnitude of a vector. 
+
+
+
+The subject of norms comes up on many occasions in the context of machine learning:
+1. When defining loss functions, i.e., the distance between the actual and predicted values
+2. As a regularization method in machine learning, e.g., ridge and lasso regularization methods
+3. Even algorithms like SVM (Support Vector Machine) use the concept of the norm to calculate the distance between the discriminant and each support vector.
+
+
+What are the properties of Norm?
+- Consider two vectorx X and Y, having the same size and a scalar. A function is considered a norm iff it satisfies the following properties.
+1. Non-negativity: It should always be non-negative: ||x|| >= 0
+2. Definiteness: It is zero iff the vector is zero, i.e., zero vector: ||x|| = 0 iff x = 0
+3. Triangle inequality: The norm of a sum of two vectors is no more than the sum of their norms : ||X+Y|| <= ||x|| + ||y||
+4. Homogeneity: Multiplying a vector by a scalar multiplies the norm of the vector by the absolute value of the scalar.: ||lambda * x|| = ||lambda|| * ||x||, where lambda is element of real number
+
+L1 Norm: Manhattan Norm
+||x||_1 = |x1| + |x2|
+
+L2 Norm: Euclidean Norm
+The L2 Norm is the most commonly used one in machine learning. Since it entails squaring of each component of the vector, it is not robust to outliers. 
+
+L-infinity Norm: Max Norm
+The L-inifinity norm is defined as the absolute value of the largest component of the vector. Ther
