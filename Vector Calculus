@@ -1,0 +1,17 @@
+Matrix differentiation is a set of rules and techniques for finding derivatives of functions involving matrices or vectors with respect of matrices or vectors.
+
+1. Scalar-Vecotr Multiplication Rules:
+
+2. Vector Transposition Rule
+
+3. Vector Sum Rule
+
+4. Scalar-Matrix Multiplication Rule
+
+5. Matrix Trace Rule
+
+6. Matrix Multiplication Rule
+
+7. Matrix Inversion Rule
+
+8. Matrix Differentiation with respect to Vectors
