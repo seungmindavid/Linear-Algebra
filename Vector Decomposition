@@ -1,0 +1,14 @@
+Vector deomposition rules
+
+1. Vector u is orthogonal to vector v (meaning u·v = 0)
+2. Vector v is aligned with b (they have a zero angle)
+
+Then, let's say a, b ∈ R^d two d-dimensional vectors. Let's decompose a into u and v s.t,
+1) a = u + v
+2) u is orthogonal to v
+3) v is aligned with b
+
+Let's first get v. Since v is aligned with b, we need projection of a onto b.
+Projection of a onto b = v = ((a·b)/||b||^2) · b
+
+And u is orthogonal to v. Hence, u = a-v
