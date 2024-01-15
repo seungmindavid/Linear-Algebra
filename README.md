@@ -2,7 +2,6 @@ This repository aims to undertake a comprehensive exploration of key linear alge
 
 1. **Norm:**
 
-
 2. **Vector Decomposition:**
 
 3. **Linear Transformations and Matrices:**
